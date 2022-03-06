@@ -1,0 +1,90 @@
+html, body, #root {
+    height: 100%;
+  }
+  * button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-family: 'Roboto',sans-serif;
+  }
+  
+  .form {
+    height: 100vh;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    
+    flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+  
+    align-items: center;
+    background-color: #1B1F38;
+  }
+  .form-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .form-header > img {
+    width: 40px;
+    height: 40px;
+  }
+  .form-header > h2 {
+    color: #FFF;
+    margin-left: 7px;
+  }
+  .form-body {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #313862;
+  }
+  .form-title {
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .form-input {
+    width: 100%; height: 3rem;
+    font-size: 1.5rem;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .form-button {
+    width: 100%;
+    margin: 7px 0;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #E44C4E;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    cursor: pointer;
+  }
